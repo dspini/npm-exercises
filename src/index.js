@@ -1,3 +1,5 @@
+const $ = require('jquery');
+
 hello = () => {
     return "Hello World!";
 }

@@ -1,4 +1,5 @@
-hello = () => {
+function sayHello() {
     return "Hello World!";
 }
-console.log(hello);
+
+module.exports = sayHello;

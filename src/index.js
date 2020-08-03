@@ -1,6 +1,3 @@
 const $ = require('jquery');
-
-hello = () => {
-    return "Hello World!";
-}
-console.log(hello);
+import sayHello from "./say-hello.js"
+console.log(sayHello());
